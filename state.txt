@@ -1,0 +1,8 @@
+// Grammar test
+(x)->(x)h|(x)a|(x)d|(x)s|(x)t|(x)y|e
+(Stick)->(X)aa
+(X)->hh(X)hh|aa #3,1
+(L)->h(S)h|aa #1,2
+(S)->h(L)h|a(S)hah|hah(S)a|a(S)a(S)hh|hh(S)a(S)a|a(S)a(S)a(S)a #3,1,1,1,1,1
+(Tree)->a(L)a
+(Stick)
